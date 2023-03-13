@@ -36,3 +36,9 @@ footer {
 .navbar {
     background-color: #902cad;
 }
+
+/* an example of how to change the seperator in breadcrumb items from the default "/"
+.breadcrumb-item + .breadcrumb-item::before {
+    content: ">";
+}
+*/
